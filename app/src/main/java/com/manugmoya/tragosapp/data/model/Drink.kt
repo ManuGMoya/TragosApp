@@ -1,4 +1,7 @@
 package com.manugmoya.tragosapp.data.model
 
-class Drink {
-}
+data class Drink(
+    val imagen: String = "",
+    val nombre: String = "",
+    val descripcion: String = ""
+)
